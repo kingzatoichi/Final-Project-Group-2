@@ -1,0 +1,129 @@
+body {
+    background-color: rgba(104, 104, 211, 0.566);
+    font-family:'Roboto', sans-serif;
+}
+
+.flex1 {
+      background-image: url("https://wallpapers.com/images/hd/abstract-purple-space-nebula-hd-hs212zyxbzh8tcsh.webp");
+      background-repeat: repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      margin-top: 10px;
+      border: 2px solid black;
+      margin-bottom: auto;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-left: 200px;
+      padding-right: 100px;
+      padding-bottom: 80px;
+      padding-top: 30px;
+}
+
+h1 {
+    font-size: 45px;
+    text-decoration: underline;
+    color: pink;
+
+}
+
+
+.flex12 {
+    display: flex;
+    font-size: 20px;
+    color: aqua;
+
+}
+
+.flex13 {
+    display: flex;
+    
+}
+
+
+.grid {
+    display: grid;
+    grid-template-rows: 100px;
+    row-gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: solid 3px purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 100px;
+    font-style: italic;
+    background-color: green;
+    
+}
+
+.grid1 {
+    font-size: 40px;
+    background-color: orange;
+
+
+
+}
+
+.grid2 {
+    background-color: aqua;
+}
+
+.grid3 {
+    background-color: blueviolet
+}
+
+.grid4 {
+
+}
+
+.adjust {
+    font-style: bold;
+}
+
+.tutorial {
+    background-color: pink;
+    margin: 25pox;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    border: solid black 4px;
+
+}
+
+.tutlist {
+    display:flex;
+    text-shadow: 5px gray;
+}
+
+.tt3 {
+    display: flex;
+    
+}
+
+.new {
+    display: grid;
+    
+
+}
+
+
+.internetimg {
+    position: relative;
+}
+
+.collage {
+    display: flex;
+    flex-direction:;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    padding-right: 200px;
+}
+
+
+
