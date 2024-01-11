@@ -1,5 +1,5 @@
 body {
-    background-image: url(Stars-vertical-repeating.jpg);
+    background-image: url(./amfilmimages/Stars-vertical-repeating.jpg);
     
 }
 
@@ -23,8 +23,6 @@ body {
     background-color: #11193F;
     align-items: center;
     justify-content:space-evenly;
-    background-image: url(./images/Stars-vertical-header.jpg);
- 
 }
  
 .sfa1 {
@@ -72,13 +70,15 @@ p {
     display: flex;
     justify-content: center;
 }
-
+ 
 .TLVR {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;        
 }
 
 .text-left {
+    border-radius: 25px;
     background-color: rgb(30, 12, 74);
     height: 500px;
     width: 44%;
@@ -99,6 +99,7 @@ p {
 }
 
 .text-right {
+    border-radius: 25px;
     background-color: rgb(138, 72, 18);
     height: 500px;
     width: 44%;
@@ -116,4 +117,44 @@ p {
     display: flex;
     justify-content: space-between;
     height: 45px;
+}
+
+@media screen and (max-width: 1000px) {
+    .TLVR {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .text-left {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .video-right {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .TRVL {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .text-right {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .video-left {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
