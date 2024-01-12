@@ -1,5 +1,5 @@
 body {
-    background-image: url(./amfilmimages/Stars-vertical-repeating.jpg);
+    background-image: url(./fpimages/Stars-vertical-repeating.jpg);
     
 }
 
@@ -20,7 +20,6 @@ body {
     display:flex;
     flex-direction: row;
     height:250px;
-    background-color: #11193F;
     align-items: center;
     justify-content:space-evenly;
 }
