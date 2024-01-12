@@ -76,7 +76,7 @@ a{
 
 .hero-section{
     padding: 50px 10px;
-    background-image: url('../images/retro_anime_header.gif');
+    background-image: url('./fpimages/retro_anime_header.gif');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -114,7 +114,7 @@ a{
 
 .cowboy-bepop-section{
     padding: 50px 10px;
-    background-image: url('../images/Japan-Anime-Jujutsu-Kaisen-Chainsaw-Man-Demon-Slayer-Wallpaper-Cosplay-Props-A3-A4-One-Piece-Background.webp');
+    background-image: url('./fpimages/Japan-Anime-Jujutsu-Kaisen-Chainsaw-Man-Demon-Slayer-Wallpaper-Cosplay-Props-A3-A4-One-Piece-Background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
