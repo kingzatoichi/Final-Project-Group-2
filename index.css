@@ -129,3 +129,42 @@ p {
         margin-bottom: 20px;
     }
 }
+
+.Introductionback {
+    height: 700px;
+    width: 100%;
+    background-image: url('https://th.bing.com/th/id/R.423fb85c3005aebf73beb6c8cede9015?rik=ceyGuk7bQtoEug&riu=http%3a%2f%2f3.bp.blogspot.com%2f-aUwCwvmDGUw%2fT1L-LjC8NDI%2fAAAAAAAAE98%2fBqkaSdUJfnA%2fs1600%2fmcquarrie001.jpg&ehk=6m7a5Fz5G3fNeMOUpQ1IQnQA8GytCeEsN1Ipp1LaU50%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.Introductiontxt {
+    width: 35%;
+    padding: 1%;
+   
+}
+
+.tutvid {
+    display: flex;
+    justify-content:space-around;
+}
+
+@media screen and (max-width: 1000px) {
+    .tutvid {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .Posters {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
