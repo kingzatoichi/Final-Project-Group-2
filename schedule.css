@@ -74,10 +74,19 @@ p {
     justify-content: center;
 }
 
+#floor-plan {
+    width: 85%;
+    max-width: 1100px;
+}
+
 .Schedule {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: space-around;
     align-items: center;
+}
+
+#schedules {
+    width: 90%;
 }
