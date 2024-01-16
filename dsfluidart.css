@@ -1,9 +1,16 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1596746953133-f49de4877fdf?q=80&w=2396&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    font-family:'Roboto', sans-serif;
+    background-repeat: repeat;
+}
+
 .header {
     
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: 'roboto';
+    flex-wrap: wrap;;
+    font-family: sans-serif;
     font-weight: bold;
     color: white;
     background-color: #FFDD17;
@@ -34,95 +41,74 @@
     font-size: 20;
 }
 
-
-body {
-    background-image: url(https://images.unsplash.com/photo-1596746953133-f49de4877fdf?q=80&w=2396&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    font-family:'Roboto', sans-serif;
-    background-repeat: repeat;
-}
-
-.flex1 {
-      
-      display: flex;
-      justify-content:space-around;
-      flex-direction: column;
-      margin-top: 10px;
-      margin-bottom: auto;
-      margin-left: 40px;
-      margin-right: 40px;
-      padding-left: 200px;
-      padding-right: 100px;
-      padding-bottom: 80px;
-      padding-top: 30px;
-}
-
 h1 {
-    font-size: 45px;
-    text-decoration: underline;
+    font-size: 60px;
     color: white;
-
 }
 
+p {
+    color: white;  
+}
 
-.flex12 {
+.Introductionback {
+    height: 700px;
+    width: 100%;
+    background-image: url('./fpimages/blueswirl.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
-    font-size: 30px;
-    color: white;
-
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
 }
 
-.flex13 {
-    padding: 30px;
-
+.Introductiontxt {
+    width: 35%;
+    padding: 1%;
 }
 
-.flex14 {
-    padding: 75px;
-
-    
+.title {
+    padding-left: 1%;
 }
-
 
 .grid {
     display: grid;
-    grid-template-rows: 100px;
-    row-gap: 50px;
-    column-gap: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-style: italic;
-    background-color: rgb(30, 12, 74); 
+    grid-template-columns:200px 200px 200px 200px 200px;
+    grid-template-rows:200px 200px 200px 200px 200px; 
+    row-gap: 2%;
+    column-gap: 3%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.classes {
+    display: flex;
+    justify-content: center;
+    width: 50%;
     color: white;
-    
+    font-size: 150%;
+    margin-top: -30%;
+    padding-left: 25%;
 }
 
-.grid1 {
-    font-size: 40px;
-
+.tutlist {
+    display:flex;
+    color: white;
+    font-size: 30px;
+    padding: 1%;
 }
 
-.grid2 {
-    background-color: rgb(30, 12, 74);
+.tutvid {
+    display: flex;
+    justify-content:space-around;
 }
 
-.grid3 {
-    background-color: rgb(30, 12, 74);
-}
 
-.grid4 {
-       
-}
 
 .adjust {
     font-style: bold;
     font-size: 40px;
     padding-left: 40%;
-    text-decoration: underline;
     color: white;
 }
 
@@ -130,71 +116,30 @@ h1 {
     padding-left: 25%;
     padding-bottom: 10%;
     overflow: auto;
-    width: 30%;
-    height: 25%;
-    color: white;
-    font-size: 100%;
-}
-
-.tutorial {
-    margin: 25pox;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    padding-left: 20%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.img {
-    padding-left: 10%;
-    padding-top: 20px;
-}
-
-.tutlist {
-    display:flex;
-    text-shadow: plum;
-    color: white;
-    font-size: 30px;
-}
-
-.tt3 {
-    display: flex;
-    
-}
-
-.new {
-    display: grid;
-    color: white;
-    font-size: 20px;
     width: 50%;
-    border: white;
-
-}
-
-.p {
+    height: 20%;
+    color: white;
     font-size: 100%;
-    color: white;  
 }
 
-
-.internetimg {
-    padding-left: 25%;
-    padding-right: 25%;
+.Paintings {
     display: flex;
     flex-direction: row;
-    justify-content:first baseline;
+    justify-content: space-around;
 }
 
-.collage1 {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-top: 200px;
-    padding-bottom: 300px;
-    padding-right: 200px;
+@media screen and (max-width: 1000px) {
+    .tutvid {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .Paintings {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
 }
-
-
-
-

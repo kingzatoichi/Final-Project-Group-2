@@ -85,8 +85,12 @@ p {
     justify-content: center;
     align-content: space-around;
     align-items: center;
+<<<<<<< HEAD
 }
 
 #schedules {
     width: 90%;
+=======
+    width: 100%;
+>>>>>>> 0151d55bc4f7a8514f72b668e80d314b9fbd815f
 }
