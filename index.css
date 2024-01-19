@@ -1,7 +1,33 @@
 body {
     background-image: url(./fpimages/Stars-vertical-repeating.jpg);
-    
 }
+
+/*Headers and body text*/
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Orbitron
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: Orbitron
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    font-family: Orbitron
+}
+
+p {
+    color: white;
+    font-family: Roboto
+}
+
+/*Navigation Bar*/
 
 .header {
     display:flex;
@@ -16,6 +42,8 @@ body {
  
 }
  
+/*Header*/
+
 .hero {
     display:flex;
     flex-direction: row;
@@ -36,33 +64,13 @@ body {
     font-size: 20;
 }
 
+/*Banner*/
+
 .City {
     width: 100%;
 }
 
-h1 {
-    color: white;
-    font-size: 60px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
-
-h2 {
-    color: white;
-    font-size: 40px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-h4 {
-    color: white;
-    font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-p {
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+/*Banner*/
 
 .Introduction {
     width: 50%;
@@ -109,6 +117,8 @@ p {
     padding: 1%;
 }
 
+/*For smaller screens*/
+
 @media screen and (max-width: 1000px) {
     .TLMR {
         display: flex;
@@ -129,6 +139,8 @@ p {
         margin-bottom: 20px;
     }
 }
+
+/*Banner for Popular Art*/
 
 .Introductionback {
     height: 700px;
@@ -153,6 +165,8 @@ p {
     justify-content:space-around;
 }
 
+/*Small Screen for Popular Art*/
+
 @media screen and (max-width: 1000px) {
     .tutvid {
         display: flex;
@@ -169,7 +183,7 @@ p {
     }
 }
 
-/* footer-section style */
+/*Footer section*/
 
 .footer-section{
     background-color: #FFDD17;
@@ -244,19 +258,19 @@ p {
 .footer-section .footer-links a{
     display: inline-block;
 }
-.footer-section .footer-socil-links{
+.footer-section .footer-social-links{
     text-align: center;
     font-size: 18px;
     font-weight: 700;
     margin-top: 20px;
 }
-.footer-section .footer-socil-links .social-flex{
+.footer-section .footer-social-links .social-flex{
     display: flex;
     justify-content: center;
     gap: 15px;
     margin-top: 12px;
 }
-.footer-section .footer-socil-links .social-flex img{
+.footer-section .footer-social-links .social-flex img{
     width: 35px;
 }
 
@@ -266,6 +280,8 @@ p {
     font-weight: 600;
     margin-top: 12px;
 }
+
+/*Footer for smaller screens*/
 
 @media screen and (max-width:767px) {
 
@@ -287,7 +303,7 @@ p {
     .footer-section .footer-contact-info{
         max-width: 100%;
     }
-    .footer-section .footer-socil-links{
+    .footer-section .footer-social-links{
         margin-top: 10px;
     }
     .footer-section .contact-flex .address-text{
