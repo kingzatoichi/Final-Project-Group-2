@@ -84,10 +84,9 @@ p {
 
     
 
-.title {
+.gal {
     display: flex;
     justify-content: center;
-    color: white;
 }
 
 .grid {
@@ -119,8 +118,6 @@ p {
 .tutvid {
     display: flex;
     justify-content:space-around;
-    width: auto;
-    height 350px;
 }
 
 .list {
