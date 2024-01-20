@@ -1,23 +1,47 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1596746953133-f49de4877fdf?q=80&w=2396&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    font-family:'Roboto', sans-serif;
-    background-repeat: repeat;
+    background-image: url(./fpimages/Stars-vertical-repeating.jpg);   
 }
 
+/*Headers and body text*/
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Orbitron
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: Orbitron
+}
+
+h4 {
+    color: white;
+    font-size: 40px;
+    font-family: Orbitron
+}
+
+p {
+    color: white;
+    font-family: Roboto
+}
+
+/*Navigation Bar*/
+
 .header {
-    
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;;
-    font-family: sans-serif;
+    font-family: 'Roboto';
     font-weight: bold;
-    color: white;
+    color: #11193F;
     background-color: #FFDD17;
     height: 50px;
     align-items: center;
- 
 }
+ 
+/*Header*/
 
 .hero {
     display:flex;
@@ -25,10 +49,8 @@ body {
     height:250px;
     align-items: center;
     justify-content:space-evenly;
-    color: white;
- 
 }
-
+ 
 .sfa1 {
     scale: 22%;
     margin: -300px;
@@ -41,55 +63,42 @@ body {
     font-size: 20;
 }
 
-h1 {
-    font-size: 60px;
-    color: white;
-}
-
-p {
-    color: white;  
-}
+/*Banner*/
 
 .Introductionback {
-    height: 500px;
-    width: auto;
+    height: 700px;
+    width: 100%;
     background-image: url('./fpimages/blueswirl.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin: 1%;
-    padding-left: 20%;
-    padding-right: 10%;
-}
-    
-
-.Introductiontxt {
-    width: 60%;
-    padding: 10%;
-    font-size: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
-    height:auto;
+}
+    
+.Introductiontxt {
+    width: 35%;
+    padding: 1%;   
 }
 
     
 
 .title {
-    padding-left: 10%;
+    display: flex;
+    justify-content: center;
     color: white;
-
 }
 
 .grid {
     display: grid;
+    justify-content: center;
     grid-template-columns:200px 200px 200px 200px 200px;
     grid-template-rows:200px 200px 200px 200px 200px; 
-    row-gap: 2%;
+    row-gap: 10%;
     column-gap: 3%;
-    margin-left: 5%;
     margin-top: 2%;
-    height:auto;
+    height:500px;
 }
 
 .classes {
@@ -98,56 +107,192 @@ p {
     width: 50%;
     color: white;
     font-size: 150%;
-    margin-top: -30%;
     padding-left: 25%;
 }
 
 .tutlist {
-    display:flex;
-    color: white;
+    display: flex;
+    justify-content: center;
     font-size: 30px;
-    padding: 1%;
 }
 
 .tutvid {
     display: flex;
     justify-content:space-around;
     width: auto;
+    height 350px;
 }
 
 .list {
-    width: 60%;
     height: 200px;
-   
-}
-
-.adjust {
-    font-style: bold;
-    font-size: 40px;
-    padding-left: 30%;
-    color: white;
-    overflow: scroll;
+    display: flex;
+    justify-content: center;
 }
 
 .overflow {
-    padding-left: 25%;
-    padding-bottom: 10%;
-    width: 50%;
-    height: 20%;
+    display: flex;
+    justify-content: center;
+    padding-left: 35%;
+    width: 30%;
+    height: 30%;
     color: white;
     font-size: 100%;
+    overflow-y: scroll;
+    margin-top: -3%;
 }
 
 .Paintings {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 5%;
-    align-content:space-between;
+    padding: 1%;
 }
 
-@media screen and (max-width: 768px ) {
+/* Footer section*/
+
+.footer-section{
+    background-color: #FFDD17;
+    color: #000;
+    min-height: 100px;
+    padding: 24px 10px 16px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.footer-section a{
+    color: inherit;
+    text-decoration: none;
+}
+.footer-section .container{
+    padding: 0px 50px;
+}
+.footer-section .flex-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    font-size: 17px;
+}
+.footer-section .flex-box>*{
+    flex-shrink: 0;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.footer-section .flex-box .flex-6{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.footer-section .footer-logo{
+    max-width: 140px;
+}
+.footer-section .footer-contact-info{
+   max-width: 400px;
+   margin: auto;
+   height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-section .contact-flex{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+.footer-section .contact-flex.align-items-center{
+    align-items: center;
+}
+.footer-section .contact-flex .address-text{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-section .contact-flex .address-text strong{
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.footer-section .contact-flex .contact-icon{
+    width: 30px;
+    height: 30px;
+}
+.footer-section .footer-link{
+    margin-top: 12px;
+}
+.footer-section .footer-links a{
+    display: inline-block;
+}
+.footer-section .footer-social-links{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.footer-section .footer-social-links .social-flex{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+.footer-section .footer-social-links .social-flex img{
+    width: 35px;
+}
+
+.footer-section .footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+/*Footer for smaller screens*/
+
+@media screen and (max-width:767px) {
+
+    .footer-section .flex-box> *{
+        margin-bottom: 20px !important;
+    }
+    .footer-section .container{
+        padding: 0px 20px;
+    }
+
+    .footer-section .flex-box .flex-3,
+    .footer-section .flex-box .flex-6{
+        width: 100%;
+        margin-bottom: 12px !important;
+    }
+    .footer-section .footer-logo{
+        max-width: 140px;
+    }
+    .footer-section .footer-contact-info{
+        max-width: 100%;
+    }
+    .footer-section .footer-social-links{
+        margin-top: 10px;
+    }
+    .footer-section .contact-flex .address-text{
+        max-width: 450px;
+    }
+}
+
+/*End of footer section*/
+
+/*For smaller screens*/
+
+@media screen and (max-width: 1000px ) {
+    .Introductiontxt {
+        width: 100%;
+        padding: 1%;   
+    }
+    
+    .title {
+        display: none;
+    }
+
+    .grid {
+        display: none;
+    }
+    
     .tutvid {
         display: flex;
         flex-direction: column;
@@ -163,49 +308,16 @@ p {
 
     }
 
-    .Introductiontxt { 
-        padding-left: 25%;
-        padding-bottom: 10%;
-        overflow: auto;
-        width: 70%;
-        height: 30%;
-        color: white;
-        font-size: 100%;
-    }
 
-    .grid {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-    }
 
-}
-
-@media screen and (max-width: 481px) {
-    .Introductiontxt { 
-        padding-left: 25%;
-        padding-bottom: 10%;
-        overflow: auto;
-        width: 80%;
-        height: 30%;
-        color: white;
-        font-size: 100%;
-        }
-
-    .grid {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-    }    
+    
     
     .list {
-        display: none;
+        
     }
 
     .Paintings {
-        display: none;
+        
      } 
 }
 
